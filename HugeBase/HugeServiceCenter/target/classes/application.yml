@@ -1,0 +1,17 @@
+server:
+  port: 8090
+
+spring:
+  application:
+    name: HugeServiceCenter
+  devtools:
+    restart:
+      enabled: true
+      additional-paths: src/main/java
+
+eureka:
+  client:
+    fetch-registry: false
+    register-with-eureka: false
+    service-url:
+      defaultZone: http://localhost:8090/eureka

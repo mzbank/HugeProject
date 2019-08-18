@@ -1,0 +1,25 @@
+server:
+  port: 8092
+
+spring:
+  application:
+    name: HugeZuulCenter
+  devtools:
+    restart:
+      enabled: true
+      additional-paths: src/main/java
+
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://localhost:8090/eureka/
+zuul:
+  routes:
+    baidu:
+      path: /api-a/*
+      url: http://www.baidu.com
+#    alibaba:
+#      path: /api-a/*
+#      serviceId:
