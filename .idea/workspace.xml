@@ -1,13 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1f495061-9b4e-4895-89ca-03fc96b3f787" name="Default Changelist" comment="" />
+    <list default="true" id="1f495061-9b4e-4895-89ca-03fc96b3f787" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/HugeBusinessManager/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HugeBusinessManager/src/main/java/HugeBusinessManager/HugeBusinessManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HugeBusinessManager/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HugeBusinessOrder/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HugeBusinessUser/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HugeCommon/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/HugeBase/target/" />
     <ignored path="$PROJECT_DIR$/HugeBase/HugeServiceCenter/target/" />
     <ignored path="$PROJECT_DIR$/HugeBase/HugeConfigCenter/target/" />
     <ignored path="$PROJECT_DIR$/HugeBase/HugeZuulCenter/target/" />
+    <ignored path="$PROJECT_DIR$/HugeBusiness/target/" />
+    <ignored path="$PROJECT_DIR$/HugeBusinessUser/target/" />
+    <ignored path="$PROJECT_DIR$/HugeBusinessManager/target/" />
+    <ignored path="$PROJECT_DIR$/HugeBusinessOrder/target/" />
+    <ignored path="$PROJECT_DIR$/HugeCommon/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,33 +56,33 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="264" />
+          <entry key="java" value="302" />
           <entry key="txt" value="56" />
-          <entry key="xml" value="1189" />
-          <entry key="yml" value="656" />
+          <entry key="xml" value="1229" />
+          <entry key="yml" value="694" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="264" />
+          <entry key="JAVA" value="302" />
           <entry key="PLAIN_TEXT" value="56" />
-          <entry key="XML" value="1189" />
-          <entry key="YAML" value="656" />
+          <entry key="XML" value="1229" />
+          <entry key="YAML" value="694" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="5" />
+          <entry key="java" value="7" />
           <entry key="pom" value="4" />
-          <entry key="xml" value="6" />
-          <entry key="yml" value="5" />
+          <entry key="xml" value="12" />
+          <entry key="yml" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="5" />
-          <entry key="XML" value="10" />
-          <entry key="YAML" value="5" />
+          <entry key="JAVA" value="7" />
+          <entry key="XML" value="16" />
+          <entry key="YAML" value="6" />
         </counts>
       </usages-collector>
     </session>
@@ -77,72 +90,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HugeBase/pom.xml">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="183">
-              <caret line="17" column="14" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HugeBase/HugeConfigCenter/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="31" column="26" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HugeBase/HugeServiceCenter/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="326">
-              <caret line="27" column="20" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HugeBase/HugeServiceCenter/src/main/java/HugeServiceCenter/HugeServiceCenter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HugeBase/HugeConfigCenter/src/main/java/HugeConfigCenter/HugeConfigCenter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#422#423#0" expanded="true" />
-                <element signature="e#460#461#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HugeBase/HugeConfigCenter/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="214">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HugeBase/HugeServiceCenter/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="122">
-              <caret line="9" column="37" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
+            <state relative-caret-position="204">
+              <caret line="12" column="14" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -160,16 +111,16 @@
         <entry file="file://$PROJECT_DIR$/HugeBase/HugeZuulCenter/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="425">
-              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+              <caret line="25" selection-start-line="25" selection-end-line="25" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/HugeBase/HugeZuulCenter/src/main/java/HugeZuulCenter/HugeZuulCenter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="16" lean-forward="true" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+            <state>
+              <caret column="23" selection-start-column="23" selection-end-line="15" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#411#412#0" expanded="true" />
@@ -177,6 +128,53 @@
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/HugeBusinessUser/pom.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/HugeBusinessOrder/pom.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/HugeBusinessManager/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/HugeBusinessManager/src/main/java/HugeBusinessManager/HugeBusinessManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="22" lean-forward="true" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#253#254#0" expanded="true" />
+                <element signature="e#285#286#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/HugeBusinessManager/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/HugeCommon/pom.xml">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -187,6 +185,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -203,6 +204,9 @@
         <option value="$PROJECT_DIR$/HugeBase/HugeZuulCenter/pom.xml" />
         <option value="$PROJECT_DIR$/HugeBase/HugeZuulCenter/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/HugeBase/HugeZuulCenter/src/main/java/HugeZuulCenter/HugeZuulCenter.java" />
+        <option value="$PROJECT_DIR$/HugeBusinessManager/pom.xml" />
+        <option value="$PROJECT_DIR$/HugeBusinessManager/src/main/java/HugeBusinessManager/HugeBusinessManager.java" />
+        <option value="$PROJECT_DIR$/HugeBusinessManager/src/main/resources/application.yml" />
       </list>
     </option>
   </component>
@@ -224,11 +228,14 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-30" />
     <option name="y" value="-9" />
     <option name="width" value="1346" />
     <option name="height" value="580" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -248,34 +255,25 @@
             <path>
               <item name="HugeProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="new" type="462c0819:PsiDirectoryNode" />
-              <item name="HugeBase" type="462c0819:PsiDirectoryNode" />
+              <item name="HugeBusinessManager" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="HugeProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="new" type="462c0819:PsiDirectoryNode" />
-              <item name="HugeBase" type="462c0819:PsiDirectoryNode" />
-              <item name="HugeZuulCenter" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HugeProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="new" type="462c0819:PsiDirectoryNode" />
-              <item name="HugeBase" type="462c0819:PsiDirectoryNode" />
-              <item name="HugeZuulCenter" type="462c0819:PsiDirectoryNode" />
+              <item name="HugeBusinessManager" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="HugeProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="new" type="462c0819:PsiDirectoryNode" />
-              <item name="HugeBase" type="462c0819:PsiDirectoryNode" />
-              <item name="HugeZuulCenter" type="462c0819:PsiDirectoryNode" />
+              <item name="HugeBusinessManager" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="HugeProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="new" type="462c0819:PsiDirectoryNode" />
-              <item name="HugeBase" type="462c0819:PsiDirectoryNode" />
-              <item name="HugeZuulCenter" type="462c0819:PsiDirectoryNode" />
+              <item name="HugeBusinessManager" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -283,21 +281,15 @@
             <path>
               <item name="HugeProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="new" type="462c0819:PsiDirectoryNode" />
-              <item name="HugeBase" type="462c0819:PsiDirectoryNode" />
-              <item name="HugeZuulCenter" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="HugeZuulCenter" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HugeProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="new" type="462c0819:PsiDirectoryNode" />
-              <item name="HugeBase" type="462c0819:PsiDirectoryNode" />
-              <item name="HugeZuulCenter" type="462c0819:PsiDirectoryNode" />
+              <item name="HugeBusinessManager" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HugeProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="new" type="462c0819:PsiDirectoryNode" />
+              <item name="HugeCommon" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -312,7 +304,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1566139581352" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1566143107442" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../old" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -400,18 +392,18 @@
       <option name="presentableId" value="Default" />
       <updated>1566113937364</updated>
       <workItem from="1566113947083" duration="552000" />
-      <workItem from="1566131490283" duration="7846000" />
+      <workItem from="1566131490283" duration="9107000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8398000" />
+    <option name="totallyTimeSpent" value="9659000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2553517" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2553517" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -420,7 +412,7 @@
       <window_info id="Capture Tool" order="6" />
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Messages" />
-      <window_info active="true" anchor="bottom" id="Run Dashboard" visible="true" weight="0.5261383" />
+      <window_info anchor="bottom" id="Run Dashboard" weight="0.5261383" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.25801012" />
@@ -433,7 +425,7 @@
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Java Enterprise" order="10" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -480,13 +472,6 @@
     </entry>
     <entry file="file://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-starter-netflix-eureka-server/2.1.0.RELEASE/spring-cloud-starter-netflix-eureka-server-2.1.0.RELEASE.pom">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="14" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/HugeBase/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
@@ -555,19 +540,67 @@
     <entry file="file://$PROJECT_DIR$/HugeBase/HugeZuulCenter/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="14" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HugeBusiness/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/HugeBase/HugeZuulCenter/src/main/java/HugeZuulCenter/HugeZuulCenter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="16" lean-forward="true" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+        <state>
+          <caret column="23" selection-start-column="23" selection-end-line="15" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#411#412#0" expanded="true" />
             <element signature="e#476#477#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HugeBusinessUser/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HugeBusinessOrder/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HugeCommon/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HugeBusinessManager/src/main/java/HugeBusinessManager.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HugeBusinessManager/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HugeBusinessManager/src/main/java/HugeBusinessManager/HugeBusinessManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="22" lean-forward="true" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#253#254#0" expanded="true" />
+            <element signature="e#285#286#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HugeBusinessManager/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
         </state>
       </provider>
     </entry>

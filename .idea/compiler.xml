@@ -6,10 +6,17 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="HugeBusinessManager" />
+        <module name="HugeBusinessOrder" />
+        <module name="HugeBusinessUser" />
+        <module name="HugeCommon" />
         <module name="HugeConfigCenter" />
         <module name="HugeServiceCenter" />
         <module name="HugeZuulCenter" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="HugeBusiness" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

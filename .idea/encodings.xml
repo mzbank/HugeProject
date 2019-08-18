@@ -6,5 +6,10 @@
     <file url="file://$PROJECT_DIR$/HugeBase/HugeConfigCenter" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/HugeBase/HugeServiceCenter" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/HugeBase/HugeZuulCenter" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/HugeBusiness" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/HugeBusinessManager" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/HugeBusinessOrder" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/HugeBusinessUser" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/HugeCommon" charset="UTF-8" />
   </component>
 </project>

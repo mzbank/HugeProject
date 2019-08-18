@@ -10,6 +10,11 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>HugeBase</module>
+        <module>HugeBusiness</module>
+        <module>HugeBusinessUser</module>
+        <module>HugeBusinessOrder</module>
+        <module>HugeBusinessManager</module>
+        <module>HugeCommon</module>
     </modules>
 
     <parent>
