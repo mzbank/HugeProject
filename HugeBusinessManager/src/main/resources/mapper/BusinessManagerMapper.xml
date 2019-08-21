@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="HugeBusinessManager.BusinessManagerDao.BusinessMangerMapper">
+
+    <resultMap id="ManagerMap" type="HugeBusinessManager.BusinessManagerPojo.BusinessManager">
+        <id column="manager_id" property="ManagerId"/>
+        <result column="manager_name" property="ManagerName"/>
+        <result column="create_manager_date" property="CreateManagerDate"/>
+        <!--<association property="ManagerAuthority" column="authority_id">-->
+
+        <!--</association>-->
+    </resultMap>
+    <!--oracle sql-->
+    <insert id="BatchInsertManger" useGeneratedKeys="false" >
+        insert into business_manager(manager_id,mangager_name,create_manager_date) values
+        SELECT PAGE_ID_SEQ.NEXTVAL,a.* FROM INTO (
+        <foreach collection="managers" item="manager" separator="union all">
+            SELECT
+            (#{manager.ManagerId},#{manager.ManagerName},#{manager.CreateManagerDate})
+            FROM dual
+        </foreach>
+        ) a
+    </insert>
+    <insert id="InsertManger">
+        insert into business_manager(manager_id,manager_name,create_manager_date) values
+          (#{manager.ManagerId},#{manager.ManagerName},#{manager.CreateManagerDate})
+    </insert>
+</mapper>

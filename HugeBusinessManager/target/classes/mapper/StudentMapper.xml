@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="HugeBusinessManager.BusinessManagerDao.StudentMapper">
+
+    <select id="SelectUserList" resultType="student">
+        select * from student
+    </select>
+
+    <select id="SelectList" resultType="student">
+        SELECT * from MZBANK."student"
+    </select>
+    <insert id="InsertStudent" useGeneratedKeys="false">
+      insert into MZBANK."student" values ('04','张鲁','03')
+    </insert>
+    <insert id="batchSave" parameterType="java.util.List" useGeneratedKeys="false">
+        INSERT INTO MZBANK."student" (Sid, Sname, Cid)
+        SELECT A.*
+        FROM(
+        <foreach collection="list" item="item" index="index"
+                 separator="UNION ALL">
+            SELECT
+            #{item.Sid} Sid,
+            #{item.Sname} Sname,
+            #{item.Cid} Cid,
+            FROM
+            dual
+        </foreach>
+        )A
+    </insert>
+</mapper>
